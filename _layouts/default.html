@@ -6,15 +6,21 @@
     <body id="page-top" class="index">
 
     {% include header.html %}
+
+    {% comment %}
     {% include services.html %}
+    {% endcomment %}
 
     <!-- Posts -->
     {% include portfolio_grid.html %}
-    {% include about.html %}
 
-    {% include team.html %}
-    {% include clients.html %}
-    {% include contact.html %}
+    {% comment %}
+    <!-- {% include about.html %} -->
+    <!-- {% include team.html %} -->
+    <!-- {% include clients.html %} -->
+    <!-- {% include contact.html %} -->
+    {% endcomment %}
+
     {% include footer.html %}
     {% include modals.html %}
     {% include js.html %}
